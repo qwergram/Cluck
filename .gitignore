@@ -23,6 +23,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+<<<<<<< HEAD
 bin/
 lib64
 pyvenv.cfg
@@ -66,4 +67,3 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
-
