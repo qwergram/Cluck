@@ -7,6 +7,9 @@ class Device(models.Model):
     device_id = models.CharField(max_length=128)
     device_name = models.CharField(max_length=128)
 
+    def __str__(self):
+        return self.device_id
+
 
 class Menu(models.Model):
     item_id = models.CharField(max_length=16)
