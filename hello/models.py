@@ -35,6 +35,3 @@ class Log(models.Model):
     deviceorbitssynctime = models.IntegerField()
     deviceslope60 = models.IntegerField()
     deviceslope60synctime = models.IntegerField()
-
-class Hello(models.Model):
-    world = models.CharField(max_length=255s)
